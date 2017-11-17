@@ -1,4 +1,4 @@
-# Entertainment Tracker
+# Entertainment Tracker &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/andredarcie/tracker/LICENSE)
 
 The most funny entertainment tracker ever 🔥
 
