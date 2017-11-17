@@ -18,10 +18,10 @@
 
   <div class="field">
     <%= form.label :year %>
-    <%= form.datetime_select :year, id: :movie_year %>
+    <%= form.text_field :year, id: :movie_year, class:"datepicker" %>
   </div>
 
-  <div class="actions">
+  <div class="actions waves-effect waves-light btn-large">
     <%= form.submit %>
   </div>
 <% end %>
