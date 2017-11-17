@@ -36,6 +36,9 @@ gem 'jbuilder', '~> 2.5'
 # Materialize sass. Read more: https://github.com/mkhairi/materialize-sass
 gem 'materialize-sass'
 
+# Materialize offline icons
+gem 'material_icons'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
