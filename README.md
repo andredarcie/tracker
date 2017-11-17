@@ -37,7 +37,7 @@ We use SemVer for versioning. For the versions available, see the tags on this r
 
 ## Authors
 
-- André Darcie - andrendarcie@gmailcom
+- André Darcie - andrendarcie@gmail.com
 - Fabri Damazio - fabridamazio@hotmail.com
 
 See also the list of contributors who participated in this project.
