@@ -16,6 +16,11 @@ Create the database:
 rails db:migrate
 ```
 
+Run:
+```
+rails server
+```
+
 ## Prerequisites
 
 We are using Ruby on Rails:
