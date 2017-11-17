@@ -2,20 +2,47 @@
 
 The most funny entertainment tracker ever 🔥
 
-* Ruby version
+## Prerequisites
 
-* System dependencies
+We are using Ruby on Rails:
 
-* Configuration
+ - [Ruby on Rails](http://rubyonrails.org/)
+ - [Node JS](https://nodejs.org/)
 
-* Database creation
+## Getting Started
 
-* Database initialization
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-* How to run the test suite
+Clone the repository:
+```
+git clone https://github.com/andredarcie/tracker.git
+```
+Create the database:
+```
+rails db:migrate
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Run:
+```
+rails server
+```
 
-* Deployment instructions
+## Contributing
 
-* ...
+Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use SemVer for versioning. For the versions available, see the tags on this repository.
+
+## Authors
+
+- André Darcie - andrendarcie@gmail.com
+- Fabri Damazio - fabridamazio@hotmail.com
+- Leonardo Dias - leodias@protonmail.com
+
+See also the list of contributors who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
