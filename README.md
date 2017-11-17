@@ -1,1 +1,2 @@
-# Shopping Cart app
+# Tracker
+The most funny entertainment tracker ever
