@@ -19,6 +19,12 @@ Clone the repository:
 git clone https://github.com/andredarcie/tracker.git
 ```
 Create the database:
+
+Postgre development configuration:
+ - database: tracker_development
+ - username: postgres
+ - password: pass
+ 
 ```
 rails db:migrate
 ```
