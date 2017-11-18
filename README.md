@@ -8,6 +8,7 @@ We are using Ruby on Rails:
 
  - [Ruby on Rails](http://rubyonrails.org/)
  - [Node JS](https://nodejs.org/)
+ - [PostgreSQL](https://www.postgresql.org/download/)
 
 ## Getting Started
 
