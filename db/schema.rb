@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 20171117011329) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "movies", force: :cascade do |t|
     t.string "title"
     t.datetime "year"
