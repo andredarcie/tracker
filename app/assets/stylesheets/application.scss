@@ -9,4 +9,7 @@ $primary-text-color:   color("grey", "darken-4") !default;
 $secondary-text-color: color("grey", "darken-1") !default;
 $divider-color:        color("grey", "lighten-1") !default;
 @import 'materialize';
-@import 'menu';
+@import 'main';
+@import './menus/mainmenu';
+@import './menus/sidemenu';
+@import './menus/footer';
