@@ -1,0 +1,39 @@
+<nav>
+      <div class="nav-wrapper">
+        <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+        <a href="#" class="menu-app-logo">Tracker</a>
+        <span class="menu-app-version">Alpha</span></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#"><i class="material-icons">search</i></a></li>
+          <li><a href="#"><i class="material-icons">view_module</i></a></li>
+          <li><a href="#"><i class="material-icons">refresh</i></a></li>
+          <li><a href="#"><i class="material-icons">more_vert</i></a></li>
+        </ul>
+      </div>
+    </nav>
+    <ul id="slide-out" class="side-nav">
+        <li>
+            <div class="user-view-background center-align">
+            <div class="user-view-background-header">
+                <a href="#" class="center-align"><%= image_tag("default_user_avatar.jpg", :alt => "rss feed", :class => "circle user-avatar") %></a>            
+                <a href="#"><span class="white-text">User Name</span></a>
+            </div>            
+            <a href="#!email"><span class="white-text email">username@email.com</span></a>
+            </div>
+        </li>
+        <li><a href="/movies" class="waves-effect"><i class="material-icons">local_movies</i>Movies</a></li>
+        <li><div class="menu-divider"></div></li>
+        <li><a href="#!" class="waves-effect"><i class="material-icons">live_tv</i>Tv Series</a></li>
+        <li><div class="menu-divider"></div></li>
+        <li><a href="#!" class="waves-effect"><i class="material-icons">movie</i>Documentaries</a></li>
+        <li><div class="menu-divider"></div></li>
+        <li><a href="#!" class="waves-effect"><i class="material-icons">library_books</i>Books</a></li>
+        <li><div class="menu-divider"></div></li>
+        <li><a href="#!" class="waves-effect"><i class="material-icons">games</i>Games</a></li>
+    </ul>
+<script>
+    $(document).ready(function() {
+        // Initialize collapse button nav
+    $('.button-collapse').sideNav();
+    });
+</script>

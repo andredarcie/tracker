@@ -1,0 +1,23 @@
+.user-view-background {
+    background-color: $primary-color-dark;
+}
+.user-view-background-header {
+    background-color: $primary-color;
+    padding-top: 20px;
+}
+.user-avatar {
+    height: 80px;
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+}
+.side-nav .menu-divider {
+    @extend .divider;
+    margin-top: 0;
+}
+.menu-app-logo {
+    font-size: 1.7rem;
+}
+.menu-app-version {
+    font-size: 0.7rem;
+}
