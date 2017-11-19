@@ -1,6 +1,11 @@
-@import "materialize";
-
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
 @import "materialize/components/color";
-$primary-color: color("blue", "lighten-2") !default;
-$secondary-color: color("yellow", "base") !default;
+$primary-color-dark:   color("blue-grey", "darken-2") !default;
+$primary-color:        color("blue-grey", "base") !default;
+$primary-color-light:  color("blue-grey", "lighten-4") !default;
+$primary-color-text:   color("shades", "white") !default;
+$accent-color:         color("red", "accent-2") !default;
+$primary-text-color:   color("grey", "darken-4") !default;
+$secondary-text-color: color("grey", "darken-1") !default;
+$divider-color:        color("grey", "lighten-1") !default;
 @import 'materialize';
