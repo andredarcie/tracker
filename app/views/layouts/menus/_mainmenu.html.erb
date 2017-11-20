@@ -15,9 +15,9 @@
         <li>
             <div class="user-view-background center-align">
             <div class="user-view-background-header">
-                <a href="#" class="center-align"><%= image_tag("default_user_avatar.jpg", :alt => "rss feed", :class => "circle user-avatar") %></a>            
-                <a href="#"><span class="white-text">User Name</span></a>
-            </div>            
+                <a href="#" class="center-align"><%= image_tag("default_user_avatar.jpg", :alt => "rss feed", :class => "circle user-avatar") %></a>
+                <a href="#"><span class="white-text"><%= current_user[:name] %></span></a>
+            </div>
             <a href="#!email"><span class="white-text email">username@email.com</span></a>
             </div>
         </li>
