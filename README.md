@@ -44,7 +44,7 @@ We use SemVer for versioning. For the versions available, see the tags on this r
 
 ## Authors
 
-- André Darcie - andrendarcie@gmail.com
+- [André Darcie](https://github.com/andredarcie) - andrendarcie@gmail.com
 - Fabri Damazio - fabridamazio@hotmail.com
 - Leonardo Dias - leodias@protonmail.com
 
