@@ -46,7 +46,7 @@ We use SemVer for versioning. For the versions available, see the tags on this r
 
 - [André Darcie](https://github.com/andredarcie) - andrendarcie@gmail.com
 - [Fabri Damazio](https://github.com/fabridamazio) - fabridamazio@hotmail.com 
-- Leonardo Dias - leodias@protonmail.com
+- [Leonardo Dias](https://github.com/leoddias) - leodias@protonmail.com
 
 See also the list of contributors who participated in this project.
 
