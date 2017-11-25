@@ -8,15 +8,15 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   <body>
-    <% unless current_user %>
-      <%= link_to "Sign in with Facebook", user_facebook_omniauth_authorize_path %>
-    <% else %>
+    <%# unless current_user %>
+      <%#= link_to "Sign in with Facebook", user_facebook_omniauth_authorize_path %>
+    <%# else %>
     <%= render "layouts/menus/mainmenu" %>
     <main class="container">
       <%= yield %>
     </main>
     <%= render "layouts/menus/footer" %>
-    <%= link_to "Logout", destroy_user_session_path, method: :delete %>
-    <% end %>
+    <%#= link_to "Logout", destroy_user_session_path, method: :delete %>
+    <%# end %>
   </body>
 </html>
