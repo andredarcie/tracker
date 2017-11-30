@@ -36,7 +36,7 @@ rails server
 
 ## Contributing
 
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/andredarcie/tracker/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
@@ -44,12 +44,12 @@ We use SemVer for versioning. For the versions available, see the tags on this r
 
 ## Authors
 
-- André Darcie - andrendarcie@gmail.com
-- Fabri Damazio - fabridamazio@hotmail.com
-- Leonardo Dias - leodias@protonmail.com
+- [André Darcie](https://github.com/andredarcie) - andrendarcie@gmail.com
+- [Fabri Damazio](https://github.com/fabridamazio) - fabridamazio@hotmail.com 
+- [Leonardo Dias](https://github.com/leoddias) - leodias@protonmail.com
 
 See also the list of contributors who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/andredarcie/tracker/blob/master/LICENSE) file for details
