@@ -39,6 +39,9 @@ gem 'materialize-sass'
 # Materialize offline icons
 gem 'material_icons'
 
+#Font Awesome icons
+gem 'font-awesome-rails'
+
 # JQuery
 gem 'jquery-rails'
 
