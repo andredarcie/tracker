@@ -4,3 +4,21 @@
 .navbar-blue {
   background-color: $primary-color-dark;
 }
+.main-panel {
+  text-align: center;
+  margin-top: 80px;
+  width: 100%;
+  background-color: white;
+  padding: 80px 0;
+}
+.main-panel-title {
+  color: $primary-text-color;
+  font-size: 6rem;
+}
+.main-panel-description {
+  color: $secondary-text-color;
+  font-size: 2rem;
+}
+.btn, .btn-large {
+  background-color: $accent-color;
+}

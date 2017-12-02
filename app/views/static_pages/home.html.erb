@@ -12,9 +12,19 @@
    </nav>
  </div>
 
-
-<% if user_signed_in? %>
-      <%= link_to('logout ', destroy_user_session_path, method: :delete) %>
-   <% else %>
-     <%= link_to('login ', new_user_session_path) %>
-   <% end %>
+ <section>
+   <div>
+     <div class="main-panel col s8 offset-2">
+       <h1 class="main-panel-title">Stay on Track</h1>
+       <p class="main-panel-description">
+         Movies, Tv Series, Books, Documentaries and much more
+       </p>
+       <% if user_signed_in? %>
+         <%= link_to('logout ', destroy_user_session_path, method: :delete,
+             :class => "waves-effect waves-light btn main-panel-btn") %>
+       <% else %>
+         <%= link_to('Join now! ', new_user_session_path, :class => "waves-effect waves-light btn") %>
+       <% end %>
+     </div>
+   </div>
+ </section>

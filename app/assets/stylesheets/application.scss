@@ -8,6 +8,12 @@ $accent-color:         color("indigo", "accent-2") !default;
 $primary-text-color:   color("grey", "darken-4") !default;
 $secondary-text-color: color("grey", "darken-1") !default;
 $divider-color:        color("grey", "lighten-1") !default;
+
+$success-color: color("green", "base") !default;
+$error-color: color("red", "base") !default;
+$link-color: color("indigo", "accent-1") !default;
+$secondary-color: color("indigo", "accent-2") !default;
+
 @import 'materialize';
 @import 'font-awesome';
 @import 'main';
