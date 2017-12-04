@@ -1,30 +1,16 @@
-  <div class="navbar-fixed">
-   <nav class="navbar-blue">
-     <div class="nav-wrapper">
-       <a href="#" class="menu-app-logo">Tracker</a>
-       <span class="menu-app-version">Alpha</span></a>
-       <ul class="right hide-on-med-and-down">
-         <li><a href="https://github.com/andredarcie/tracker" target="_blank"><i class="fa fa-github fa-2x"></i></a></li>
-         <li><a href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
-         <li><a href="#" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
-       </ul>
-     </div>
-   </nav>
- </div>
-
- <section>
-   <div>
-     <div class="main-panel col s8 offset-2">
-       <h1 class="main-panel-title">Stay on Track</h1>
-       <p class="main-panel-description">
-         Movies, Tv Series, Books, Documentaries and much more
-       </p>
-       <% if user_signed_in? %>
-         <%= link_to('logout ', destroy_user_session_path, method: :delete,
-             :class => "waves-effect waves-light btn main-panel-btn") %>
-       <% else %>
-         <%= link_to('Join now! ', new_user_session_path, :class => "waves-effect waves-light btn") %>
-       <% end %>
-     </div>
+<section>
+ <div>
+   <div class="main-panel col s8 offset-2">
+     <h1 class="main-panel-title">Stay on Track</h1>
+     <p class="main-panel-description">
+       Movies, Tv Series, Books, Documentaries and much more
+     </p>
+     <% if user_signed_in? %>
+       <%= link_to('logout ', destroy_user_session_path, method: :delete,
+           :class => "waves-effect waves-light btn main-panel-btn") %>
+     <% else %>
+       <%= link_to('Join now! ', new_user_session_path, :class => "waves-effect waves-light btn") %>
+     <% end %>
    </div>
- </section>
+ </div>
+</section>
